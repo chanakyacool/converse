@@ -5,8 +5,9 @@ gem 'rails', '3.0.5'
 gem 'nifty-generators'
 gem 'jquery-rails'
 gem 'faye'
-group :development do
 	gem 'thin'
+group :development do
+
 	gem 'sqlite3'
 end
 
